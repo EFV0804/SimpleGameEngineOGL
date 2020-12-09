@@ -1,0 +1,52 @@
+﻿  Actor.cpp
+  AnimSpriteComponent.cpp
+  Assets.cpp
+  Astroid.cpp
+  CircleCollisionComponent.cpp
+  Component.cpp
+  Game.cpp
+  InputComponent.cpp
+  Log.cpp
+  Main.cpp
+  MoveComponent.cpp
+  Rectangle.cpp
+  Renderer.cpp
+  Ship.cpp
+  SpriteComponent.cpp
+  Texture.cpp
+  Timer.cpp
+  Window.cpp
+  Generating Code...
+Game.obj : error LNK2019: unresolved external symbol _SDL_GetKeyboardState referenced in function "private: void __thiscall Game::processInput(void)" (?processInput@Game@@AAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "private: void __thiscall Game::processInput(void)" (?processInput@Game@@AAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "public: void __thiscall Game::close(void)" (?close@Game@@QAEXXZ)
+Log.obj : error LNK2019: unresolved external symbol _SDL_Log referenced in function "public: static void __cdecl Log::info(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?info@Log@@SAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Log.obj : error LNK2019: unresolved external symbol _SDL_LogError referenced in function "public: static void __cdecl Log::error(enum LogCategory,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?error@Log@@SAXW4LogCategory@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Log.obj : error LNK2019: unresolved external symbol _SDL_GetError referenced in function "public: static void __cdecl Log::error(enum LogCategory,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?error@Log@@SAXW4LogCategory@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Renderer.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function "public: bool __thiscall Renderer::initialize(class Window &)" (?initialize@Renderer@@QAE_NAAVWindow@@@Z)
+Renderer.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function "public: void __thiscall Renderer::beginDraw(void)" (?beginDraw@Renderer@@QAEXXZ)
+Renderer.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function "public: void __thiscall Renderer::beginDraw(void)" (?beginDraw@Renderer@@QAEXXZ)
+Renderer.obj : error LNK2019: unresolved external symbol _SDL_RenderFillRect referenced in function "public: void __thiscall Renderer::drawRect(struct Rectangle const &)const " (?drawRect@Renderer@@QBEXABURectangle@@@Z)
+Renderer.obj : error LNK2019: unresolved external symbol _SDL_RenderCopyEx referenced in function "public: void __thiscall Renderer::drawSprite(class Actor const &,class Texture const &,struct Rectangle,struct Vector2,enum Renderer::Flip)const " (?drawSprite@Renderer@@QBEXABVActor@@ABVTexture@@URectangle@@UVector2@@W4Flip@1@@Z)
+Renderer.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function "public: void __thiscall Renderer::endDraw(void)" (?endDraw@Renderer@@QAEXXZ)
+Renderer.obj : error LNK2019: unresolved external symbol _SDL_DestroyRenderer referenced in function "public: void __thiscall Renderer::close(void)" (?close@Renderer@@QAEXXZ)
+Renderer.obj : error LNK2019: unresolved external symbol _IMG_Init referenced in function "public: bool __thiscall Renderer::initialize(class Window &)" (?initialize@Renderer@@QAE_NAAVWindow@@@Z)
+Texture.obj : error LNK2019: unresolved external symbol _SDL_FreeSurface referenced in function "public: bool __thiscall Texture::load(class Renderer &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?load@Texture@@QAE_NAAVRenderer@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Texture.obj : error LNK2019: unresolved external symbol _SDL_CreateTextureFromSurface referenced in function "public: bool __thiscall Texture::load(class Renderer &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?load@Texture@@QAE_NAAVRenderer@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Texture.obj : error LNK2019: unresolved external symbol _SDL_DestroyTexture referenced in function "public: void __thiscall Texture::unload(void)" (?unload@Texture@@QAEXXZ)
+Texture.obj : error LNK2019: unresolved external symbol _IMG_Load referenced in function "public: bool __thiscall Texture::load(class Renderer &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?load@Texture@@QAE_NAAVRenderer@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Timer.obj : error LNK2019: unresolved external symbol _SDL_GetTicks referenced in function "public: unsigned int __thiscall Timer::computeDeltaTime(void)" (?computeDeltaTime@Timer@@QAEIXZ)
+Timer.obj : error LNK2019: unresolved external symbol _SDL_Delay referenced in function "public: void __thiscall Timer::delayTimer(void)" (?delayTimer@Timer@@QAEXXZ)
+Window.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function "public: bool __thiscall Window::initialize(void)" (?initialize@Window@@QAE_NXZ)
+Window.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "public: void __thiscall Window::close(void)" (?close@Window@@QAEXXZ)
+Window.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "public: bool __thiscall Window::initialize(void)" (?initialize@Window@@QAE_NXZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\ARTFX\3D3-Prog\BLAISE_CAZALET_G\SimpleGameEngineOGL\SDL\SDL2-2.0.12\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\ARTFX\3D3-Prog\BLAISE_CAZALET_G\SimpleGameEngineOGL\SDL\SDL2-2.0.12\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\ARTFX\3D3-Prog\BLAISE_CAZALET_G\SimpleGameEngineOGL\SDL\SDL2_ttf-2.0.15\lib\x64\SDL2_ttf.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\ARTFX\3D3-Prog\BLAISE_CAZALET_G\SimpleGameEngineOGL\SDL\SDL2_mixer-2.0.4\lib\x64\SDL2_mixer.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\ARTFX\3D3-Prog\BLAISE_CAZALET_G\SimpleGameEngineOGL\SDL\SDL2_image-2.0.5\lib\x64\SDL2_image.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\ARTFX\3D3-Prog\BLAISE_CAZALET_G\SimpleGameEngineOGL\SDL\glew-2.1.0\lib\Release\x64\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib\fmodL64_vc.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\lib\fmodstudioL64_vc.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\ARTFX\3D3-Prog\BLAISE_CAZALET_G\SimpleGameEngineOGL\SimpleGameEngineOGL\Debug\SimpleGameEngineOGL.exe : fatal error LNK1120: 24 unresolved externals

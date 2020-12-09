@@ -1,0 +1,22 @@
+﻿  Actor.cpp
+  AnimSpriteComponent.cpp
+  Assets.cpp
+  Astroid.cpp
+  CircleCollisionComponent.cpp
+  Component.cpp
+  Game.cpp
+  InputComponent.cpp
+  Log.cpp
+  Main.cpp
+  MoveComponent.cpp
+  Random.cpp
+  Rectangle.cpp
+  Renderer.cpp
+  Ship.cpp
+  SpriteComponent.cpp
+  Texture.cpp
+  Timer.cpp
+  Vector2.cpp
+  Window.cpp
+  Generating Code...
+  SimpleGameEngineOGL.vcxproj -> D:\ARTFX\3D3-Prog\BLAISE_CAZALET_G\SimpleGameEngineOGL\SimpleGameEngineOGL\x64\Debug\SimpleGameEngineOGL.exe

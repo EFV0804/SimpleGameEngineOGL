@@ -1,0 +1,62 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>SimpleGameEngine</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SimpleGameEngine</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SimpleGameEngine.vcxproj" File="SimpleGameEngine.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">SimpleGameEngine.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Actor.cpp">Actor.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="AnimSpriteComponent.cpp">AnimSpriteComponent.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Assets.cpp">Assets.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Astroid.cpp">Astroid.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="CircleCollisionComponent.cpp">CircleCollisionComponent.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Component.cpp">Component.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Game.cpp">Game.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="InputComponent.cpp">InputComponent.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Log.cpp">Log.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Main.cpp">Main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MoveComponent.cpp">MoveComponent.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Random.cpp">Random.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Rectangle.cpp">Rectangle.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Renderer.cpp">Renderer.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Ship.cpp">Ship.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SpriteComponent.cpp">SpriteComponent.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Texture.cpp">Texture.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Timer.cpp">Timer.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Vector2.cpp">Vector2.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Window.cpp">Window.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Actor.h">Actor.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="AnimSpriteComponent.h">AnimSpriteComponent.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Assets.h">Assets.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Astroid.h">Astroid.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="BackgroundSpriteComponent.h">BackgroundSpriteComponent.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="CircleCollisionComponent.h">CircleCollisionComponent.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Component.h">Component.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Game.h">Game.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="InputComponent.h">InputComponent.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Log.h">Log.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Maths.h">Maths.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MoveComponent.h">MoveComponent.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Random.h">Random.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Rectangle.h">Rectangle.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Renderer.h">Renderer.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Ship.h">Ship.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SpriteComponent.h">SpriteComponent.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Texture.h">Texture.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Timer.h">Timer.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Vector2.h">Vector2.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Window.h">Window.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
